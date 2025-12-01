@@ -1,0 +1,59 @@
+# -------------------------------------------
+# Python
+# -------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled / build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+
+# -------------------------------------------
+# Project-specific ignores
+# -------------------------------------------
+
+# Raw datasets (large files)
+data/*.csv
+data/*.xlsx
+data/raw/
+
+# Output artifacts (plots, models, cleaned data)
+output/cleaned_data/
+output/charts/
+output/models/
+output/reports/
+
+# Temporary or intermediate files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets (DO NOT COMMIT)
+config.py
+*.env
+.env*
+secrets.json
+credentials.json    
