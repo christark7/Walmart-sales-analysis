@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       adj_weekly_sales   R-squared:                       0.023
+Model:                            OLS   Adj. R-squared:                  0.022
+Method:                 Least Squares   F-statistic:                     29.66
+Date:                Fri, 28 Nov 2025   Prob (F-statistic):           6.90e-30
+Time:                        02:14:18   Log-Likelihood:                 3723.2
+No. Observations:                6435   AIC:                            -7434.
+Df Residuals:                    6429   BIC:                            -7394.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            1.0395      0.019     53.513      0.000       1.001       1.078
+temperature     -0.0004   9.75e-05     -4.373      0.000      -0.001      -0.000
+fuel_price      -0.0043      0.004     -1.121      0.262      -0.012       0.003
+cpi           2.083e-05   4.75e-05      0.438      0.661   -7.23e-05       0.000
+unemployment    -0.0009      0.001     -0.967      0.334      -0.003       0.001
+holiday_flag     0.0681      0.007     10.121      0.000       0.055       0.081
+==============================================================================
+Omnibus:                     3776.760   Durbin-Watson:                   1.156
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            51546.144
+Skew:                           2.560   Prob(JB):                         0.00
+Kurtosis:                      15.886   Cond. No.                     2.16e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.16e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
